@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    background-color: #0e0e12;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #c6c9cc;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+a:hover {
+    color: #e6e7e9;
+}
