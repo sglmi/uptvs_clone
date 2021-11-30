@@ -10,7 +10,7 @@ body {
 header {
     background-color: #0e0e12;
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 a {
@@ -23,3 +23,16 @@ a {
 a:hover {
     color: #e6e7e9;
 }
+
+#searchbox {
+    background-color: #222225;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+#searchbox::placeholder {
+    color: #878c97;
+}
+/* #searchbox: {
+    background-color: #444446;;
+} */
