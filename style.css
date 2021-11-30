@@ -5,6 +5,8 @@
 body {
     direction: rtl;
     text-align: right;
+    margin: 0 10px;
+    background-color: #1c1c22;
 }
 
 header {
@@ -25,7 +27,7 @@ a:hover {
 }
 
 #searchbox {
-    background-color: #222225;
+    background-color: #1b1b1f;
     border: none;
     padding: 10px;
     font-size: 14px;
@@ -33,6 +35,24 @@ a:hover {
 #searchbox::placeholder {
     color: #878c97;
 }
-/* #searchbox: {
-    background-color: #444446;;
-} */
+
+#navbar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+.button:hover {
+    background-color: #4dda52; /* Green */
+    cursor: pointer;
+}
