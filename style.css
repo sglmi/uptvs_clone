@@ -5,7 +5,7 @@
 body {
     direction: rtl;
     text-align: right;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     background-color: #1c1c22;
 }
 
@@ -55,4 +55,23 @@ a:hover {
 .button:hover {
     background-color: #4dda52; /* Green */
     cursor: pointer;
+}
+
+#hero {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 5px;
+}
+
+#hero img {
+    border-radius: 5px;
+}
+/* .row {
+    margin: 5px 0;
+} */
+
+.row img {
+    border-radius: 5px;
+    margin: 0 5px;
 }
