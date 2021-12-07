@@ -80,10 +80,7 @@ h1 {
 .movies {
     padding: 20px;
 }
-.movie {
-    background-color: #23232b;
-    padding: 20px;
-}
+
 
 #m-copyright {
     color: #518cca;
@@ -99,12 +96,95 @@ li {
     color: #a5a8ae;
 }
 
+/* Top right bottom left */
 .storyline {
     color: #7c848d;
-    padding: 10px;
-    background-color: #1c1c22
+    padding: 10px 10px 10px 0;
+    background-color: #1c1c22;
+    width: 100%;
+}
+
+.movie hr {
+    color: #1c1c22;
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+.movie {
+    margin-top: 10px;
+    display: flex;
+    background-color: #23232b;
+    padding: 20px;
 }
 
 .movie img {
     float: right;
+    margin-left: 20px;
 }
+
+.movie .left {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.left div {
+    margin-top: 10px;
+}
+.movie-genre {
+    padding-top: 10px;
+}
+.movie-genre li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.actor-list {
+    margin: 10px 0;
+}
+.actor-list li {
+    display: inline;
+    margin-left: 5px;
+}
+
+.directors li {
+    display: inline;
+    margin-left: 5px;
+}
+
+.download li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.download {
+    width: 100%;
+    flex-grow: 2;
+}
+
+.download ul {
+    float: right;
+    margin-top: 10px;
+}
+.download a {
+    border: 1px solid #6898f8;
+    padding: 10px 20px;
+    float: left;
+    border-radius: 5px;
+    color: #6898f8;
+}
+
+.download a:hover {
+    background-color: #6898f8;
+    color: #fff;
+}
+
+.download i {
+    margin-left: 10px;
+}
+
+.title h1 {
+    float: right;
+}  
